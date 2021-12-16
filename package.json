@@ -1,10 +1,10 @@
 {
   "name": "sorrow.api",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "The best api for anime images, jokes, animals, facts, roasts, and more.",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
-    "build": "npx tsup ./index.ts --minify",
+    "build": "npx tsup src/index.ts --minify",
     "test": "nyc ava",
     "prepare": "npm run build"
   },
